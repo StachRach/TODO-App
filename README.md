@@ -6,7 +6,7 @@ A single page application. It:
 - shows active tasks, but completed as well,
 - allows to delete any position from both lists.
 
-Alas, after refreshing, task returns to the default ones.
+Alas, after refreshing, tasks return to the default ones.
 
 ## To do:
 
