@@ -18,10 +18,8 @@ const TaskList = (props) => {
         })
     }
 
-    const activeTasks = active.map(task => <Task key={task.id} task={task}
-                    delete={props.delete} change={props.change}/>);
-    const doneTasks = done.map(task => <Task key={task.id} task={task}
-                                                 delete={props.delete} change={props.change}/>);
+    const activeTasks = active.map(task => <Task key={task.id} task={task} delete={props.delete} change={props.change}/>);
+    const doneTasks = done.map(task => <Task key={task.id} task={task} delete={props.delete} change={props.change}/>);
 
     return (
         <>
@@ -32,8 +30,7 @@ const TaskList = (props) => {
             <hr/>
             <div className="done">
                 <h3>Completed tasks <em>({done.length})</em></h3>
-                {done.length > 5 && <span style={{fontSize: 10}}>
-                    There are the last 5 completed tasks beneath.</span>}
+                {done.length > 5 && <span style={{fontSize: 10}}>There are the last 5 completed tasks beneath.</span>}
                 {doneTasks.slice(0, 5)}
             </div>
         </>

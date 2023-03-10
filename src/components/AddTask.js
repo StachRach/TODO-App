@@ -46,15 +46,12 @@ class AddTask extends Component {
 
         return (
             <div className="form">
-                <input type="text" placeholder="Add task" onChange={this.handleText}
-                       value={this.state.text}/>
-                <input type="checkbox" onChange={this.handleCheck} checked={this.state.checked}
-                       id="important"/>
+                <input type="text" placeholder="Add task" onChange={this.handleText} value={this.state.text}/>
+                <input type="checkbox" onChange={this.handleCheck} checked={this.state.checked} id="important"/>
                 <label htmlFor="important">Important</label>
                 <br/>
                 <label htmlFor="date">Deadline </label>
-                <input type="date" onChange={this.handleDate} value={this.state.date}
-                       min={this.minDate} max={maxDate}/>
+                <input type="date" onChange={this.handleDate} value={this.state.date} min={this.minDate} max={maxDate}/>
                 <br/>
                 <button onClick={this.handleClick}>ADD</button>
                 <hr/>

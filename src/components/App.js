@@ -72,8 +72,7 @@ class App extends Component {
             <div className="App">
                 <h1>TO-DO APP</h1>
                 <AddTask add={this.addTask}/>
-                <TaskList tasks={this.state.tasks}
-                          delete={this.deleteTask} change={this.changeTaskStatus}/>
+                <TaskList tasks={this.state.tasks} delete={this.deleteTask} change={this.changeTaskStatus}/>
             </div>
         );
     }
