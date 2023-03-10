@@ -12,4 +12,4 @@ Alas, after refreshing, tasks return to the default ones.
 ## To do:
 
 - Update from class components to React Hooks
-- Add .json file, which will contain every tasks (remembering tasks between sessions)
+- Add .json file, which will contain every task (remembering tasks between sessions)
