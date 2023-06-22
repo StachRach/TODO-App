@@ -13,3 +13,4 @@ Alas, after refreshing, tasks return to the default ones.
 
 - Update from class components to React Hooks
 - Add .json file, which will contain every task (remembering tasks between sessions)
+- Improve design
