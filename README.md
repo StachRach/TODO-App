@@ -1,6 +1,6 @@
 # TODO-App
 
-A single page application. It:
+The application was made as part of a course on Udemy. A single page application. It:
 
 - allows to add new position to the tasks list by a form (name, date, importance),
 - shows active tasks, but completed as well,
